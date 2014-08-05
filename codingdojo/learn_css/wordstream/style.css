@@ -1,0 +1,90 @@
+body{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.gray{
+	color: rgb(110,110,113);
+}
+#title{
+	position: absolute;
+	left: 80px;
+	top: 4px;
+	color: rgb(24,105,153);
+
+}
+.topRight{
+	position: absolute;
+	top: -15px;
+	right: 100px;
+	background-color: rgb(247,247,247);
+	padding-bottom: 5px;
+	padding-top: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	color: gray;
+	font-size: 15px;
+
+}
+.login{
+	position: absolute;
+	top: -2px;
+	right: 30px;
+	/*background:linear-gradient(rgb (53,171,254), rgb(22,104,175); */
+	background: -webkit-linear-gradient(top, rgb(53,171,254), rgb(22,104,175));
+	border-radius: 5px
+}
+.blue{
+	background-color: rgb(22,101,177);
+	color: white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	margin-top: 10px;
+}
+#mainContent{
+	position: fixed;
+	left: 340px;
+}
+.ppc{
+	position: fixed;
+	left: 390px;
+	top: 140px;
+
+}
+.lightBlue{
+	color: rgb(26,92,154);
+}
+.phone{
+	position: fixed;
+	right:240px;
+	padding-top: 12px
+}
+.numbers{
+	position: fixed;
+	right: 50px;
+	top:130px;
+	line-height: 5px;
+}
+.smaller{
+	font-size: 14px
+}
+.miniHead{
+	color: rgb(26,92,154);
+	font-size: 18px
+}
+.bold{
+	font-weight: bold;
+}
+.item{
+	color: rgb(26,92,154);
+	text-decoration: underline;	
+}
+#lilBox{
+	background-color: blue;
+	
+}
