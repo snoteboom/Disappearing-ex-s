@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Disapearing ninja</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.box').click(function(){
+			$(this).hide()
+		})
+		$('.butt').click(function(){
+			$('div').show()
+		})
+
+	})
+</script>
+<style type="text/css">
+	.box{
+		height: 200px;
+		width: 219px;
+		display: inline-block;,
+	}
+	#pics{
+		width: 800px;
+		font-size: 0px;
+		margin: 0 auto;
+	}
+</style>
+</head>
+<body>
+	<h1>Disappearing Ex's</h1>
+	<div id="pics">
+		<div class='b1 box'><img src="drake/1.jpg" height='200' width='200'></div>
+		<div class='b2 box'><img src="drake/2.jpeg" height='200' width='200'></div>
+		<div class='b3 box'><img src="drake/3.jpeg" height='200' width='200'></div>
+		<div class='b4 box'><img  src="drake/4.jpeg" height='200' width='200'></div>
+		<div class='b5 box'><img  src="drake/5.jpeg" height='200' width='200'></div>
+		<div class='b6 box'><img  src="drake/6.jpeg" height='200' width='200'></div>
+		<div class='b7 box'><img  src="drake/7.jpeg" height='200' width='200'></div>
+		<div class='b8 box'><img src="drake/8.jpeg" height='200' width='200'>
+	</div>
+	<button class='butt'>Restore</button>
+</body>
+</html>
